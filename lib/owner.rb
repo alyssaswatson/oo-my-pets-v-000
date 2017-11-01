@@ -78,7 +78,7 @@ class Owner
     @pets[:dogs].each do |fish|
       fish.mood = "nervous"
     end
-    reset_all
+    do reset_all
   end
 
 

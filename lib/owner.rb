@@ -50,5 +50,9 @@ class Owner
     end
   end
 
+  def walk_dog
+    Dog.moood = "happy"
+  end
+
 
 end

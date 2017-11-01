@@ -34,5 +34,13 @@ class Owner
     end
   end
 
+  def buy_cat(name)
+    new_cat = Cat.new(name)
+    @pets[:cats]<<new_cat
+    if !(new_cat.owner == self)
+      new_cat.owner = self
+    end
+  end
+
 
 end

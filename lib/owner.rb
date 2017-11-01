@@ -74,9 +74,9 @@ class Owner
     end
     @pets.each{|type, pets| pets.clear}
   end
-  
-  def list_pets
 
+  def list_pets
+    "I have #{@pets[:fishes].length}"
   end
 
 end

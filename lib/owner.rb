@@ -33,6 +33,6 @@ class Owner
       new_fish.owner = self
     end
   end
-  
+
 
 end

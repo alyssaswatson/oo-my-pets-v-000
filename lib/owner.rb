@@ -4,6 +4,8 @@ class Owner
   @@all = []
 
   def initialize(owner)
-    @onwer = onwer
+    @owner = owner
   end
+
+  def 
 end

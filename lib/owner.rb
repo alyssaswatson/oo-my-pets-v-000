@@ -74,6 +74,9 @@ class Owner
     end
     @pets.each{|type, pets| pets.clear}
   end
+  
+  def list_pets
 
+  end
 
 end

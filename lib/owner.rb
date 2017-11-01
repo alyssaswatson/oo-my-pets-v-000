@@ -19,4 +19,16 @@ class Owner
     @@all = []
   end
 
+  def say_species
+
+  end
+
+  def name
+
+  end
+
+  def pets
+
+  end
+
 end

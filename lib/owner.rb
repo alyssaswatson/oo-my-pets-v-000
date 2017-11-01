@@ -29,7 +29,7 @@ class Owner
   def buy_fish(name)
     new_fish = Fish.new(name)
     @pets[:fishes]<<new_fish
-    if !(new_fish.owner ==self)
+    if !(new_fish.owner == self)
       new_fish.owner = self
     end
   end

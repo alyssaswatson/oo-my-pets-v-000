@@ -1,5 +1,5 @@
 class Owner
-  attr_reader :owner
+  attr_reader :owner, :name
 
   @@all = []
 
@@ -23,7 +23,7 @@ class Owner
     puts "I am a #{owner}"
   end
 
-  def name
+  def name=(name)
 
   end
 

@@ -7,5 +7,5 @@ class Owner
     @owner = owner
   end
 
-  def 
+  def
 end

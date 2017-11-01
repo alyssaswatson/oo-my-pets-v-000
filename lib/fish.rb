@@ -6,7 +6,7 @@ class Fish
     @name = name
     @mood = "nervous"
   end
-  
+
   def owner=(new_owner)
     if new_owner.is_a? Owner
          if !(@owner == new_owner)

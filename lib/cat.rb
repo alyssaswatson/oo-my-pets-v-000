@@ -12,6 +12,6 @@ class Cat
          if !(@owner == new_owner)
            @owner = new_owner
          end
-       end
-     end
+    end
+  end
 end

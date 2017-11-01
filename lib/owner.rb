@@ -4,8 +4,8 @@ class Owner
 
   @@all = []
 
-  def initialize(owner)
-    @owner = owner
+  def initialize(owner_species)
+    @species = owner_species
   end
 
   def save
@@ -21,7 +21,7 @@ class Owner
   end
 
   def say_species
-    puts "I am a #{owner}"
+    puts "I am a #{@species}"
   end
 
   def name=(name)

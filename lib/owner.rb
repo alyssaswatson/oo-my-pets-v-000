@@ -7,5 +7,7 @@ class Owner
     @owner = owner
   end
 
-  def
+  def reset_all
+
+  end
 end
